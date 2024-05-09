@@ -7,7 +7,8 @@ body {
 header {
     background: #333;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
+    width: 100%;
 }
 
 header h1 {
@@ -81,9 +82,9 @@ button[type="button"]:hover {
 }
 #resultado {
     position: absolute;
-    top: 90%;
+    top: 101%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -10%);
     padding: 20px;
     max-width: 400px;
 }
@@ -98,4 +99,3 @@ footer {
     height: 2.5rem;
     
 }
-
